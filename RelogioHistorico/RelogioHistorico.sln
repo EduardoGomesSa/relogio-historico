@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relogio.Api", "Relogio.Api\Relogio.Api.csproj", "{015F7543-54A8-48F6-BC9B-B5694C3388B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relogio.Application", "Relogio.Application\Relogio.Application.csproj", "{7CFF2082-F14B-4F6B-A72E-A26ABF482495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relogio.Infra", "Relogio.Infra\Relogio.Infra.csproj", "{C6EAFEF9-406F-40B0-86F2-40DB8C5FD174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{015F7543-54A8-48F6-BC9B-B5694C3388B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015F7543-54A8-48F6-BC9B-B5694C3388B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015F7543-54A8-48F6-BC9B-B5694C3388B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015F7543-54A8-48F6-BC9B-B5694C3388B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFF2082-F14B-4F6B-A72E-A26ABF482495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFF2082-F14B-4F6B-A72E-A26ABF482495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFF2082-F14B-4F6B-A72E-A26ABF482495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFF2082-F14B-4F6B-A72E-A26ABF482495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EAFEF9-406F-40B0-86F2-40DB8C5FD174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EAFEF9-406F-40B0-86F2-40DB8C5FD174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EAFEF9-406F-40B0-86F2-40DB8C5FD174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EAFEF9-406F-40B0-86F2-40DB8C5FD174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C73BC82E-F25B-4A5F-94A8-490C57B1EC1F}
+	EndGlobalSection
+EndGlobal

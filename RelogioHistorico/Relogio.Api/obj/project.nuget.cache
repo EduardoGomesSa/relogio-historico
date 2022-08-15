@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zitmxBOiP5Qpc6nGH6hvPpvTPntUYgwQwh/vj94iPraFbSKAzm73CErg5zLujcoF/8WPqweH7vT/tfpIVJnLqw==",
+  "dgSpecHash": "uHtZ/ZSGZlfTVy+1GVAZIgp57cEK18IOt0MSdiqAf0uBJdt30GNngWH1G+szBtiI847o7JLcEhh0jyqQ5VVnYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\eduar\\source\\repos\\relogio-historico\\RelogioHistorico\\Relogio.Api\\Relogio.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eduar\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\eduar\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

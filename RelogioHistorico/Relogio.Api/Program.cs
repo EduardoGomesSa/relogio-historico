@@ -1,3 +1,9 @@
+using Relogio.Application.Handler;
+using Relogio.Application.Interfaces;
+using Relogio.Infra.Interfaces;
+using Relogio.Infra.Repositorios;
+using Relogio.Infra.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +12,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IContadorService, ContadorService>();
+builder.Services.AddScoped<IContadorHandler, ContadorHandler>();
+builder.Services.AddScoped<IRepositorioContador, RepositorioContador>();
 
 var app = builder.Build();
 

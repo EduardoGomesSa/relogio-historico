@@ -1,0 +1,15 @@
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\bin\Debug\net6.0\Relogio.Application.deps.json
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\bin\Debug\net6.0\Relogio.Application.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\bin\Debug\net6.0\Relogio.Application.pdb
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\bin\Debug\net6.0\Relogio.Infra.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\bin\Debug\net6.0\Relogio.Infra.pdb
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.csproj.AssemblyReference.cache
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.AssemblyInfoInputs.cache
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.AssemblyInfo.cs
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.csproj.CoreCompileInputs.cache
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.csproj.CopyComplete
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\refint\Relogio.Application.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\Relogio.Application.pdb
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Application\obj\Debug\net6.0\ref\Relogio.Application.dll

@@ -25,3 +25,9 @@ C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\obj\D
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\obj\Debug\net6.0\Relogio.Api.pdb
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\obj\Debug\net6.0\Relogio.Api.genruntimeconfig.cache
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\obj\Debug\net6.0\ref\Relogio.Api.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Relogio.Application.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Relogio.Infra.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Relogio.Application.pdb
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Relogio.Infra.pdb
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\MediatR.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\MediatR.Contracts.dll

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DapperExtensions" Version="1.7.0" />
+    <PackageReference Include="Npgsql" Version="6.0.6" />
+  </ItemGroup>
+
 </Project>

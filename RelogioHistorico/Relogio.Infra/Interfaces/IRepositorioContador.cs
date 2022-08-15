@@ -1,6 +1,8 @@
-﻿namespace Relogio.Infra.Interfaces
+﻿using Relogio.Infra.Entidades;
+
+namespace Relogio.Infra.Interfaces
 {
-    public interface IRepositorioContador
+    public interface IRepositorioContador : IRepositorioBase<Contador>
     {
 
     }

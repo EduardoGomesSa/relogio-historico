@@ -1,5 +1,6 @@
 using Relogio.Application.Handler;
 using Relogio.Application.Interfaces;
+using Relogio.Infra.Entidades;
 using Relogio.Infra.Interfaces;
 using Relogio.Infra.Repositorios;
 using Relogio.Infra.Services;
@@ -16,6 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IContadorService, ContadorService>();
 builder.Services.AddScoped<IContadorHandler, ContadorHandler>();
 builder.Services.AddScoped<IRepositorioContador, RepositorioContador>();
+builder.Services.AddScoped<IRepositorioBase<Contador>, RepositorioContador>();
 
 var app = builder.Build();
 

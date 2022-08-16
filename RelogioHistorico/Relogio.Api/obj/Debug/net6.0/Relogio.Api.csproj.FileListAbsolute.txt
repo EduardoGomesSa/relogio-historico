@@ -31,3 +31,9 @@ C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\D
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Relogio.Infra.pdb
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\MediatR.dll
 C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Dapper.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\DapperExtensions.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Npgsql.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\eduar\source\repos\relogio-historico\RelogioHistorico\Relogio.Api\bin\Debug\net6.0\Slapper.dll

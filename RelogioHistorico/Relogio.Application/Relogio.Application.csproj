@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Relogio.Infra\Relogio.Infra.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\" />
-  </ItemGroup>
-
 </Project>

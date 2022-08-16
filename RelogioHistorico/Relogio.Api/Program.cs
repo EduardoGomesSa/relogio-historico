@@ -18,6 +18,7 @@ builder.Services.AddScoped<IContadorService, ContadorService>();
 builder.Services.AddScoped<IContadorHandler, ContadorHandler>();
 builder.Services.AddScoped<IRepositorioContador, RepositorioContador>();
 builder.Services.AddScoped<IRepositorioBase<Contador>, RepositorioContador>();
+builder.Services.AddScoped<IEventoHandler, EventoHandler>();
 
 var app = builder.Build();
 

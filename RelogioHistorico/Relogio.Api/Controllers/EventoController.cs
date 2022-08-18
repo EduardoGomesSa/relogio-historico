@@ -48,5 +48,27 @@ namespace Relogio.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            try
+            {
+                var listaEventos = _eventoHandler.BuscarTodos();
+
+                if(listaEventos.Count > 0)
+                {
+                    return Ok(listaEventos);
+                }
+                else
+                {
+                    return NotFound(listaEventos);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

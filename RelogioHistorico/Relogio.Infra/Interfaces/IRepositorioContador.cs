@@ -4,6 +4,6 @@ namespace Relogio.Infra.Interfaces
 {
     public interface IRepositorioContador : IRepositorioBase<Contador>
     {
-
+        List<Contador> BuscarTodosEventos();
     }
 }

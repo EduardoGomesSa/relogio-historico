@@ -1,4 +1,5 @@
 ﻿using Relogio.Application.Commands;
+using Relogio.Application.Queries;
 
 namespace Relogio.Application.Interfaces
 {
@@ -6,5 +7,6 @@ namespace Relogio.Application.Interfaces
     {
         bool AdicionarEvento(AdicionarEvento adicionarEvento);
         bool ExcluirEvento(DeletarEvento deletarEvento);
+        List<ContadorTempoEvento> BuscarTodos();
     }
 }

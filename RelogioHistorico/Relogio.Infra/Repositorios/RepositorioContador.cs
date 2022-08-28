@@ -10,6 +10,7 @@ namespace Relogio.Infra.Repositorios
         public List<Contador> BuscarTodosEventos()
         {
             var query = "select * from cadastro.evento;";
+
             return DBHelper <Contador>.InstanciaNpgsql.GetQuery(query);
         }
     }

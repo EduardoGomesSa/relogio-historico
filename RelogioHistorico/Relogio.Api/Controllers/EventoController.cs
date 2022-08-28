@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Relogio.Application.Commands;
 using Relogio.Application.Interfaces;
+using Relogio.Application.Queries;
 
 namespace Relogio.Api.Controllers
 {
@@ -63,6 +64,28 @@ namespace Relogio.Api.Controllers
                 else
                 {
                     return NotFound(listaEventos);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetById")]
+        public IActionResult GetById([FromQuery] BuscarEventoPotId buscarEventoPotId)
+        {
+            try
+            {
+                var evento = _eventoHandler.BuscarPorId(buscarEventoPotId);
+
+                if (evento != null)
+                {
+                    return Ok(evento);
+                }
+                else
+                {
+                    return NotFound(evento);
                 }
             }
             catch (Exception ex)

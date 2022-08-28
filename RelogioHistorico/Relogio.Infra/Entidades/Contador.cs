@@ -18,8 +18,8 @@ namespace Relogio.Infra.Entidades
         }
 
         public Int64 Id { get; private set; }
-        public string Nome { get; private set; }
-        public string Descricao { get; private set; }
+        public string? Nome { get; private set; }
+        public string? Descricao { get; private set; }
         public DateTime DataEvento { get; private set; }
     }
 }

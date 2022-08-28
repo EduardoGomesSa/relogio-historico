@@ -148,7 +148,7 @@ namespace Relogio.Infra.Repositorios.Data
         public Int64 Inserir(TEntity entity)
         {
             var conexao = this.ObtenhaConexaoPadrao();
-            Int64 resultado = 0;
+
             try
             {
                 return conexao.Insert<TEntity>(entity, _transacao);
@@ -171,7 +171,6 @@ namespace Relogio.Infra.Repositorios.Data
             {
                 throw;
             }
-            return resultado;
         }
 
         public bool Excluir(TEntity entity)

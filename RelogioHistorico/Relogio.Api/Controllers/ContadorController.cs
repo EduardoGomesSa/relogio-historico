@@ -18,19 +18,19 @@ namespace Relogio.Api.Controllers
         }
 
         [HttpGet("ObterTempoEmDias")]
-        public async Task<IActionResult> ObterTempoEmDias([FromQuery] ContadorTempo contadorTempo)
+        public IActionResult ObterTempoEmDias([FromQuery] ContadorTempo contadorTempo)
         {
             return Ok(_contadorHandler.ObterTempoEmDias(contadorTempo));
         }
 
         [HttpGet("ObterTempoEmMeses")]
-        public async Task<IActionResult> ObterTempoEmMeses([FromQuery] ContadorTempo contadorTempo)
+        public IActionResult ObterTempoEmMeses([FromQuery] ContadorTempo contadorTempo)
         {
             return Ok(_contadorHandler.ObterTempoEmMeses(contadorTempo));
         }
 
         [HttpGet("ObterTempoEmAnos")]
-        public async Task<IActionResult> ObterTempoEmAnos([FromQuery] ContadorTempo contadorTempo)
+        public IActionResult ObterTempoEmAnos([FromQuery] ContadorTempo contadorTempo)
         {
             return Ok(_contadorHandler.ObterTempoEmAnos(contadorTempo));
         }

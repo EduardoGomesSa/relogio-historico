@@ -1,6 +1,6 @@
 ﻿namespace Relogio.Application.Queries
 {
-    public class ContadorTempoEvento
+    public class BuscarEvento
     {
         public Int64 Id { get; set; }
         public string? Nome { get; set; }

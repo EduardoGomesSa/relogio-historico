@@ -7,6 +7,7 @@ namespace Relogio.Application.Interfaces
     {
         bool AdicionarEvento(AdicionarEvento adicionarEvento);
         bool ExcluirEvento(DeletarEvento deletarEvento);
-        List<ContadorTempoEvento> BuscarTodos();
+        List<BuscarEvento> BuscarTodos();
+        BuscarEvento BuscarPorId(BuscarEventoPotId buscarEventoPotId);
     }
 }

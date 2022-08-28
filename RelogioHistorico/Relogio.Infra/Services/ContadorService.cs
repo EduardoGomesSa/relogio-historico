@@ -6,17 +6,16 @@ namespace Relogio.Infra.Services
     {
         public string CalcularTempoEmAnos(DateTime dateTime)
         {
-            var tempo = 0;
 
             if (dateTime < DateTime.Now)
             {
-                tempo = (int)(DateTime.Now - dateTime).TotalDays / 365;
+                var tempo = (DateTime.Now - dateTime).TotalDays / 365;
 
                 return "Se passaram " + tempo.ToString() + " anos";
             }
             else
             {
-                tempo = (int)(dateTime - DateTime.Now).TotalDays / 365;
+                var tempo = (dateTime - DateTime.Now).TotalDays / 365;
 
                 return "Faltam " + tempo.ToString() + " anos";
             }
